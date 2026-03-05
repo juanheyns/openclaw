@@ -252,6 +252,10 @@
   "optionalDependencies": {
     "@discordjs/opus": "^0.10.0"
   },
+  "overrides": {
+    "@hono/node-server": "1.19.11",
+    "tar": "7.5.10"
+  },
   "engines": {
     "node": ">=22.12.0"
   },
